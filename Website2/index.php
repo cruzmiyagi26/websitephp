@@ -31,7 +31,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index2.html">Cloud Wolf</a>
+      <a class="navbar-brand" href="index3.html">Cloud Wolf</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,7 +48,14 @@
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Photos</a></li>
-        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
           </ul>
         </li>
       </ul>
@@ -58,43 +65,15 @@
 </div>
 </header class="navbar">
 
-<div class="container">
-<div class="row">
-<div class = "col-sm-4"> 
-<div class="panel panel-primary">
-  <div class="panel-heading">IG</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-test</div>
-<div class = "col-sm-4"> 
-<div class="panel panel-danger">
-  <div class="panel-heading">News</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-test2</div>
-<div class = "col-sm-4"> 
-<div class="panel panel-primary">
-  <div class="panel-heading">Facebook</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-test3</div>
-</div>
-</div>
-
-
- 
-	<div class="myPanel">
-	<div class="heading">Welcome to Cloud Wolf</div>
+  <div class="myPanel">
+	<div class="heading">Contact Information</div>
 	<div class="body"></div>
-	<p> Cloud Wolf </p>
+	<p> 
+  Phone Number: 4049186719    
+  Email: Kountry.nelson@gmail.com
+
+</p>
+
 
 	<div class="showOnHoover"> 
 	<a href="" class="btn btn-xs btn-danger">delete</a>
@@ -109,7 +88,7 @@ test3</div>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<script src="script.js"></script>
 
 </body>
 </html>
